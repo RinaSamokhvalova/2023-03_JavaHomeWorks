@@ -35,7 +35,7 @@ public class Sem02hw_Ex003 {
         System.out.println(res);
         try {
             FileWriter fw = new FileWriter("file02hw-03_log.txt", true);
-            fw.append(numberA + " " + operation + " " + numberB + " = " + res + "\n");
+            // fw.append(numberA + " " + operation + " " + numberB + " = " + res + "\n");
             fw.append(String.format("%.0f %s %.0f = %.3f\n", numberA, operation, numberB, res));
             fw.close();
         } catch (Exception e) {

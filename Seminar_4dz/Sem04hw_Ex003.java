@@ -46,7 +46,7 @@ public class Sem04hw_Ex003 {
                     listLink.add("#" + res);
                 }
             }
-            System.out.println(listLink.toString());
+            // System.out.println(listLink.toString());
             System.out.println("Введите символ операции (*, /, +, -) и число через пробел:");
             text = iScanner.nextLine();
         }

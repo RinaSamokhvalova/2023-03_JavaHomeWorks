@@ -13,7 +13,6 @@ public class Sem05hw_Ex003 {
     static int number = 8;
     static int[] queen = new int[number];
     static int index = 0;
-    
     public static void main(String[] args) {
         int[] queenres = new int[number];
         int version = 0;
